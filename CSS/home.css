@@ -1,0 +1,19 @@
+*{
+    overflow-y: hidden;
+}
+.main{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.main .header {
+    font-size: 8vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background: transparent;
+}
+.main .descriptor {
+   font-size: 6vh;
+   margin-top: -2%;
+    background: transparent;
+}
