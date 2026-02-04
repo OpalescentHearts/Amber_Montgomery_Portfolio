@@ -38,7 +38,7 @@ nav li:first-child{
     width: 250px;
     z-index: 999;
     background-color: var(--base-color);
-    opacity: 1;
+    opacity: 0.6;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -51,6 +51,7 @@ nav li:first-child{
 }
 .sidebar a{
     width: 100%;
+    color: var(--primary-color);
 }
 .menu-button{
     display: none;
@@ -74,7 +75,7 @@ nav li:first-child{
     fill: var(--base-color);
 }
 #theme-switch svg:hover{
-    fill:var(--accent-color);
+    fill:var(--primary-color);
 }
 #theme-switch svg:last-child{
     display:none;
@@ -93,7 +94,6 @@ nav li:first-child{
     }
     .menu-button{
         display:block;
-        fill: var(--base-color);
     }
     .sidebar{
         width: 100%;
