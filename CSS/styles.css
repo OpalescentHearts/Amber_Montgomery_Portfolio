@@ -1,10 +1,10 @@
 :root{
-    --base-color: rgb(53, 192, 19);
-    --base-variant: #4D0011;
-    --text-color: pink;
-    --secondary-text: orange;
-    --primary-color: #E6D6C5;
-    --accent-color: yellow;
+    --base-color: #E6D6C5;
+    --base-variant: #fce6d0;
+    --text-color: rgb(255, 255, 255);
+    --secondary-text: rgb(0, 0, 0);
+    --primary-color: #4D0011;
+    --accent-color: #24090f;
 }
 .darkmode{
     --base-color: rgb(110, 0, 0);
@@ -22,7 +22,7 @@
  }
 body{
     min-height: 100vh;
-    background-color: var(--primary-color);
+    background-color: var(--base-color);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,7 +33,7 @@ body{
 
 /* Footer */
 footer{
-    background-color: var(--base-variant);
+    background-color: var(--primary-color);
 }
 .footerContainer{
     width: 100%;
@@ -46,22 +46,22 @@ footer{
 .socialIcons a{
     text-decoration: none;
     padding: 10px;
-    background-color: #E6D6C5;
+    background-color: var(--base-color);
     margin: 10px;
     border-radius: 50%;
 }
 .socialIcons a i{
     font-size: 2em;
-    color: var(--base-variant);
+    color: var(--primary-color);
     opacity: 0.9;
 }
 /* Footer Hover */
 .socialIcons a:hover{
-    background-color: var(--base-variant);
+    background-color: var(--primary-color);
     transition: 0.5s;
 }
 .socialIcons a:hover i{
-    color: var(--primary-color);
+    color: var(--base-color);
     transition: 0.5s;
 }
 .footerNav{
@@ -73,7 +73,7 @@ footer{
     list-style-type: none;
 }
 .footerNav ul li a{
-    color: var(--primary-color);
+    color: var(--base-color);
     margin: 20px;
     text-decoration: none;
     font-size: 1.3em;
@@ -84,12 +84,12 @@ footer{
     opacity: 1;
 }
 .footerBottom{
-    background-color: #290109;
+    background-color: var(--accent-color);
     padding: 20px;
     text-align: center;
 }
 .footerBottom p{
-    color: var(--primary-color)
+    color: var(--text-color)
 }
 .designer{
     opacity: 0.7;

@@ -1,6 +1,6 @@
 /* Navigation Bar */
 nav{
-    background-color: var(--base-variant);
+    background-color: var(--primary-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul{
@@ -19,14 +19,16 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #E6D6C5;
+    color: var(--base-variant);
 }
 nav a:hover{
-    background-color: rgb(143, 143, 143);
+    /* background-color: var(--accent-color); */
+    color: var(--accent-color);
 }
 nav li:first-child{
     margin-right: auto;
 }
+
 /* Media Sceen Hamburger */
 .sidebar{
     position: fixed;
@@ -35,7 +37,8 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(255,255,255, 0.2);
+    background-color: var(--base-color);
+    opacity: 1;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -48,7 +51,6 @@ nav li:first-child{
 }
 .sidebar a{
     width: 100%;
-    color: var(--base-variant);
 }
 .menu-button{
     display: none;
@@ -60,7 +62,7 @@ nav li:first-child{
     width: 50px;
     padding: 0;
     border: none;
-    background-color: var(--base-variant);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +71,10 @@ nav li:first-child{
     right: 20px; */
 }
 #theme-switch svg{
-    fill: var(--primary-color);
+    fill: var(--base-color);
+}
+#theme-switch svg:hover{
+    fill:var(--accent-color);
 }
 #theme-switch svg:last-child{
     display:none;
@@ -81,7 +86,6 @@ nav li:first-child{
     display:block;
 }
 
-
 /* Media Screening */
 @media(max-width: 1150px){
     .hideOnMobile{
@@ -89,7 +93,7 @@ nav li:first-child{
     }
     .menu-button{
         display:block;
-        fill: var(--primary-color);
+        fill: var(--base-color);
     }
     .sidebar{
         width: 100%;
