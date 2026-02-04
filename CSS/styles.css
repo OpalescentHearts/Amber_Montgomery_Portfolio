@@ -1,7 +1,24 @@
+:root{
+    --base-color: rgb(53, 192, 19);
+    --base-variant: #4D0011;
+    --text-color: pink;
+    --secondary-text: orange;
+    --primary-color: #E6D6C5;
+    --accent-color: yellow;
+}
+.darkmode{
+    --base-color: rgb(110, 0, 0);
+    --base-variant: rgb(212, 212, 255);
+    --text-color: rgb(167, 82, 96);
+    --secondary-text: rgb(102, 82, 44);
+    --primary-color: rgb(255, 255, 255);
+    --accent-color: rgb(83, 83, 16);
+}
+
 *{
     margin: 0;
     padding: 0;
-}
+ }
 body{
     min-height: 100vh;
     background-color: #E6D6C5;

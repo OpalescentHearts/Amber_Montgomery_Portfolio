@@ -1,7 +1,7 @@
 /* Navigation Bar */
 
 nav{
-    background-color: #4D0011;
+    background-color: var(--base-variant);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul{
@@ -20,10 +20,10 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #9c5100;
+    color: #E6D6C5;
 }
 nav a:hover{
-    background-color: rgb(124, 34, 27);
+    background-color: rgb(143, 143, 143)
 }
 nav li:first-child{
     margin-right: auto;
@@ -53,8 +53,31 @@ nav li:first-child{
     display: none;
 }
 
+/* Light/Dark Mode */
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#theme-switch svg{
+    fill: var(--primary-color);
+}
+#theme-switch svg:last-child{
+    display:none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display:block;
+}
 
-@media(max-width: 800px){
+@media(max-width: 1150px){
     .hideOnMobile{
         display: none;
     }
@@ -62,7 +85,7 @@ nav li:first-child{
         display:block;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 1150px){
     .sidebar{
         width: 100%;
     }
