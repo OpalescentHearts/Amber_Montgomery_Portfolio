@@ -1,5 +1,4 @@
 /* Navigation Bar */
-
 nav{
     background-color: var(--base-variant);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -23,11 +22,12 @@ nav a{
     color: #E6D6C5;
 }
 nav a:hover{
-    background-color: rgb(143, 143, 143)
+    background-color: rgb(143, 143, 143);
 }
 nav li:first-child{
     margin-right: auto;
 }
+/* Media Sceen Hamburger */
 .sidebar{
     position: fixed;
     top: 0;
@@ -81,6 +81,8 @@ nav li:first-child{
     display:block;
 }
 
+
+/* Media Screening */
 @media(max-width: 1150px){
     .hideOnMobile{
         display: none;
