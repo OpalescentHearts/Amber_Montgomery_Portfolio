@@ -48,6 +48,7 @@ nav li:first-child{
 }
 .sidebar a{
     width: 100%;
+    color: var(--base-variant);
 }
 .menu-button{
     display: none;
@@ -86,12 +87,12 @@ nav li:first-child{
     }
     .menu-button{
         display:block;
+        fill: var(--primary-color);
     }
-}
-@media(max-width: 1150px){
     .sidebar{
         width: 100%;
     }
+
 }
 
 
