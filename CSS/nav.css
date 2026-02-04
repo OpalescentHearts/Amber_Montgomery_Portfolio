@@ -1,3 +1,202 @@
-/* navigationBody{
+/* Navigation Bar */
+
+nav{
+    background-color: #4D0011;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #9c5100;
+}
+nav a:hover{
+    background-color: rgb(124, 34, 27);
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.menu-button{
+    display: none;
+}
+
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display:block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation*/
+/* .navigationBody {
+  top: 0;
+  position: fixed;
+  background-color: transparent;
+  background: #4D0011;
+  font-size: 28px;
+  width: 100%;
+  z-index: 10;
+}
+.navigationBody ul{
+  font-size: larger;
+  list-style-type: none;
+}
+.navigationBody ul li{
+  float: left;
+}
+.navigationBody ul li a{
+  display: block;
+  color: #E6D6C5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigationBody ul li a:hover{
+  color: #f0800a;
+  text-decoration: underline;
+}
+.navigationBody .icon{
+  display: none;
+} */
+
+
+/* Overlay? */
+/* .navigationBody{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.navigationBody-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.navigationBody a{
+    padding: 8x;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.navigationBody a:hover, .navigationBody a:focus{
+    color: #f1f1f1;
+}
+.navigationBody .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+} */
+
+/* Navigation Media Screen */
+
+ /* .navOverlay{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.navOverlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.navOverlay a{
+    padding: 8x;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.navOverlay a:hover, .navOverlay a:focus{
+    color: #f1f1f1;
+}
+.navOverlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+} */
+/* Condensed Nav Bar */
+/* @media screen and (max-width: 1155px){ 
 
 } */
