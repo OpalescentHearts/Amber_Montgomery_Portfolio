@@ -1,18 +1,20 @@
 :root{
-    --base-color: #E6D6C5;
+    --base-color: #ffffff;
     --base-variant: #fce6d0;
-    --text-color: rgb(255, 255, 255);
-    --secondary-text: rgb(0, 0, 0);
-    --primary-color: #4D0011;
-    --accent-color: #24090f;
+    --text-color: rgb(0, 0, 0);
+    --secondary-text: rgb(255, 255, 255);
+    --primary-color: #7a0010;
+    --secondary-color: #fff3e5;
+    --accent-color: #e0a4b0;
 }
 .darkmode{
-    --base-color: rgb(110, 0, 0);
+    --base-color: rgb(255, 255, 255);
     --base-variant: rgb(19, 19, 39);
     --text-color: rgb(167, 82, 96);
     --secondary-text: rgb(102, 82, 44);
-    --primary-color: #aa9d8f;
-    --accent-color: rgb(83, 83, 16);
+    --primary-color: #ff8585;
+    --secondary-color: #1a0e00;
+    --accent-color: #803838;
 }
 
 *{
@@ -20,8 +22,9 @@
     padding: 0;
     box-sizing: border-box;
  }
-body{
+html, body{
     min-height: 100vh;
+    /* height: 100%; */
     background-color: var(--base-color);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +32,18 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#container {
+    min-height: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 1000px;
+    background-color: var(--base-color);
+    height: 200px;
+    overflow: hidden;
+}
 /* Hero Section */
+
 
 /* Footer */
 footer{
@@ -38,6 +52,10 @@ footer{
 .footerContainer{
     width: 100%;
     padding: 70px 30px 20px;
+    position: relative;
+    /* height: 100px; */
+    margin-top: -100px;
+    clear: both;
 }
 .socialIcons{
     display: flex;
