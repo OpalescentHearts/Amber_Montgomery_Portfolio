@@ -22,7 +22,7 @@
     padding: 0;
     box-sizing: border-box;
  }
-html, body{
+body{
     min-height: 100vh;
     /* height: 100%; */
     background-color: var(--base-color);
@@ -30,7 +30,10 @@ html, body{
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     overflow-x: hidden;
 }
+
+
 
 #container {
     min-height: 100%;
@@ -42,80 +45,29 @@ html, body{
     height: 200px;
     overflow: hidden;
 }
-/* Hero Section */
 
-
-/* Footer */
-footer{
-    background-color: var(--primary-color);
+/* *{
+    overflow-y: hidden;
 }
-.footerContainer{
-    width: 100%;
-    padding: 70px 30px 20px;
-    position: relative;
-    /* height: 100px; */
-    margin-top: -100px;
-    clear: both;
-}
-.socialIcons{
-    display: flex;
-    justify-content: center;
-}
-.socialIcons a{
-    text-decoration: none;
-    padding: 10px;
-    background-color: var(--base-color);
-    margin: 10px;
-    border-radius: 50%;
-}
-.socialIcons a i{
-    font-size: 2em;
-    color: var(--primary-color);
-    opacity: 0.9;
-}
-/* Footer Hover */
-.socialIcons a:hover{
-    background-color: var(--primary-color);
-    transition: 0.5s;
-}
-.socialIcons a:hover i{
-    color: var(--base-color);
-    transition: 0.5s;
-}
-.footerNav{
-    margin: 30px 0;
-}
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-.footerNav ul li a{
-    color: var(--base-color);
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-}
-.footerNav ul li a:hover{
-    opacity: 1;
-}
-.footerBottom{
-    background-color: var(--accent-color);
-    padding: 20px;
+.main{
     text-align: center;
+    padding-top: 10%;
 }
-.footerBottom p{
-    color: var(--text-color)
+
+.main .header {
+    font-size: 8vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background: transparent;
 }
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-}
+.main .descriptor {
+   font-size: 6vh;
+   margin-top: -2%;
+    background: transparent;
+} */
+
+
+
 @media (max-width: 1150px){
     .footerNav ul{
         flex-direction: column;

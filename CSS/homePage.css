@@ -1,0 +1,146 @@
+/* Hero Section */
+.heroContainer{
+    background-color: var(--accent-color);
+    width: 100vw;
+    height: 100vh;
+}
+.heroPage{
+    object-fit: contain;
+}
+.heropage h1{
+
+}
+
+/* Projects Section */
+/* Projects Selection Tabs */
+
+.projectsContainer{
+    background-color: var(--primary-color);
+    width: 60vw;
+    height: 60vh;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.projectsNav{
+    background-color: var(--accent-color);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 60vw;
+    /* width: 30% */
+    display: flex;
+    justify-content: center;
+}
+.projectsNav ul{
+}
+.projectsNav li{
+    list-style: none;
+}
+.projectsNav a{
+    /* height: 100%; */
+
+}
+/* nav{
+    background-color: var(--primary-color);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--base-variant);
+}
+nav a:hover{
+    /* background-color: var(--accent-color); */
+    /* color: var(--accent-color);
+} */ 
+
+
+
+/* .projectsSelection{
+
+}
+.projectsSelect{
+    background-color: var(--accent-color);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    border-radius: 25px;
+}
+
+.projectsSelect li{
+    list-style: none;
+}
+.projectsSelect a{
+    height: 100%;
+    padding: 0 30px;
+} */ 
+
+
+
+/* .projects ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+/* .projects li{
+    height: 50px;
+}
+.projects a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--accent-color);
+}
+.projects a:hover{
+    /* background-color: var(--accent-color); */
+    color: var(--primary-color);
+} */
+/* .projects li:first-child{
+    margin-right: auto;
+} */
+
+/* media screens? */
+/* .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: var(--base-color);
+    opacity: 0.6;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+    color: var(--primary-color);
+}
+.menu-button{
+    display: none;
+} */
